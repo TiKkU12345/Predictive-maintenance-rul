@@ -6,12 +6,14 @@ import torch
 import torch.nn as nn
 import matplotlib.pyplot as plt
 import matplotlib
+import os 
 matplotlib.use('Agg')
 from preprocess import load_data, get_features
 
 # ── Config
-BASE_PATH  = r'D:\D drive\Ml Sys\archive\CMaps'
-MODEL_DIR  = r'D:\D drive\Ml Sys\models'
+# Naya (relative path) — LAGAO
+BASE_PATH  = os.path.join(os.path.dirname(__file__), 'archive', 'CMaps')
+MODEL_DIR  = os.path.join(os.path.dirname(__file__), 'models')
 SEQ_LEN    = 30
 
 st.set_page_config(page_title='Predictive Maintenance', page_icon='⚙️', layout='wide')
