@@ -86,7 +86,7 @@ def predict_xgb_unit(unit_id):
     return max(0, round(pred))
 
 # ── Sidebar 
-st.sidebar.image('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/NASA_logo.svg/200px-NASA_logo.svg.png', width=80)
+st.sidebar.image('Nasa.png', width=80)
 st.sidebar.title('⚙️ Predictive Maintenance')
 st.sidebar.markdown('NASA CMAPSS Turbofan Engine Dataset')
 st.sidebar.divider()
