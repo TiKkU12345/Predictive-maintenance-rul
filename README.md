@@ -12,7 +12,7 @@ A machine learning system that predicts the **Remaining Useful Life (RUL)** of t
 
 ## 🚀 Live Demo
 
-> [[🔗 Launch App](https://predictive-maintenance--rul.streamlit.app/)]
+> [🔗Launch App](https://predictive-maintenance--rul.streamlit.app/)
 
 ---
 
