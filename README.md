@@ -1,4 +1,4 @@
-# ⚙️ Predictive Maintenance — Remaining Useful Life Prediction
+<img width="1887" height="816" alt="image" src="https://github.com/user-attachments/assets/d66bf62f-40ec-4780-be3f-ee0c2c804e0b" /># ⚙️ Predictive Maintenance — Remaining Useful Life Prediction
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 ![XGBoost](https://img.shields.io/badge/XGBoost-RMSE%2018.11-orange)
@@ -12,7 +12,7 @@ A machine learning system that predicts the **Remaining Useful Life (RUL)** of t
 
 ## 🚀 Live Demo
 
-> **[🔗 Launch App](#)** ← *(Replace with your Streamlit Cloud URL after deployment)*
+> **[[🔗 Launch App](https://predictive-maintenance--rul.streamlit.app/)](#)** ← *(Replace with your Streamlit Cloud URL after deployment)*
 
 ---
 
