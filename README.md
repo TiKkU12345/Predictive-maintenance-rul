@@ -159,7 +159,7 @@ seaborn
 
 ## 👤 Author
 
-**Arunav Kumar (TiKkU)**
+**Arunav Kumar (Tikku)**
 - GitHub: [@TiKkU12345](https://github.com/TiKkU12345)
 
 ---
