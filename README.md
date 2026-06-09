@@ -161,6 +161,7 @@ seaborn
 
 **Arunav Kumar (Tikku)**
 - GitHub: [@TiKkU12345](https://github.com/TiKkU12345)
+- Email: arunav.jsr.0604@gmail.com
 
 ---
 
