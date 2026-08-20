@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>RUL Estimator — predictive maintenance for rotating machinery</title>
+<title>RUL Estimator predictive maintenance for rotating machinery</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -279,7 +279,7 @@
 </section>
 
 <section class="intro-strip reveal">
-  <p><strong>Turbine engines don't fail without warning</strong> — the warning is buried in 21 sensor channels most maintenance schedules never read closely. This model reads them, learns the shape of degradation from NASA's C-MAPSS benchmark, and outputs a single number: cycles remaining before failure.</p>
+  <p><strong>Turbine engines don't fail without warning</strong> the warning is buried in 21 sensor channels most maintenance schedules never read closely. This model reads them, learns the shape of degradation from NASA's C-MAPSS benchmark, and outputs a single number: cycles remaining before failure.</p>
 </section>
 
 <section class="waveform-section">
@@ -288,7 +288,7 @@
       <div>
         <div class="section-label">Sensor Trend</div>
         <h2>Degradation, Caught Early</h2>
-        <p>Sensor 11 (HPC pressure) drifting across operating cycles — the pattern the LSTM learns to catch before failure.</p>
+        <p>Sensor 11 (HPC pressure) drifting across operating cycles the pattern the LSTM learns to catch before failure.</p>
       </div>
       <div class="legend">
         <div class="legend-item"><span class="legend-dot" style="background:var(--cyan);"></span>Sensor reading</div>
@@ -335,12 +335,12 @@
     <div class="how-step reveal d1">
       <div class="step-num">02</div>
       <h3>XGBoost As Baseline</h3>
-      <p>Same task, tree-based model — RMSE ~18 cycles. Used to validate the LSTM earns its complexity.</p>
+      <p>Same task, tree-based model RMSE ~18 cycles. Used to validate the LSTM earns its complexity.</p>
     </div>
     <div class="how-step reveal d2">
       <div class="step-num">03</div>
       <h3>RUL, In Cycles</h3>
-      <p>Output is a single number — cycles remaining before failure — with a known error margin.</p>
+      <p>Output is a single number cycles remaining before failure with a known error margin.</p>
     </div>
   </div>
 </section>
@@ -350,7 +350,7 @@
     <div>
       <div class="section-label">Under The Hood</div>
       <h2>Industry-Standard Benchmark</h2>
-      <p>Built on NASA's C-MAPSS turbofan degradation dataset — the same benchmark used across predictive maintenance research.</p>
+      <p>Built on NASA's C-MAPSS turbofan degradation dataset the same benchmark used across predictive maintenance research.</p>
     </div>
     <div class="pill-grid">
       <span class="pill">PyTorch</span>
@@ -375,8 +375,8 @@
       </div>
       <div class="footer-col">
         <h4>Model</h4>
-        <a href="#stats">LSTM — RMSE 14.47</a>
-        <a href="#stats">XGBoost — RMSE ~18</a>
+        <a href="#stats">LSTM RMSE 14.47</a>
+        <a href="#stats">XGBoost RMSE ~18</a>
       </div>
       <div class="footer-col">
         <h4>Dataset</h4>
